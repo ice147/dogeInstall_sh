@@ -1,7 +1,7 @@
 clear
-pkg install php -y
-pkg install git -y
-pkg install wget -y
+pkg install php 
+pkg install git 
+pkg install wget 
 clear
 pkg install && pkg update
 pkg upgrade
@@ -28,41 +28,41 @@ pip install colorama
 pip install datetime
 pip install marshel
 clear
-pip3 install -U collections -y
-pip3 install -U collections.abc -y
-pip3 install -U concurrent.futures -y
-pip3 install -U functools -y
-pip3 install -U heapq -y
-pip3 install -U itertools -y
-pip3 install -U os -y
-pip3 install -U socket -y
-pip3 install -U stat -y
-pip3 install -U subprocess -y
-pip3 install -U threading -y
-pip3 install -U time -y
-pip3 install -U traceback -y
-pip3 install -U sys -y
-pip3 install -U warnings -y
-pip3 install -U weakref -y
-pip3 install -U constants -y
-pip3 install -U coroutines -y
-pip3 install -U events -y
-pip3 install -U exceptions -y
-pip3 install -U futures -y
-pip3 install -U protocols -y
-pip3 install -U sslproto -y
-pip3 install -U staggered -y
-pip3 install -U tasks -y
-pip3 install -U transports -y
-pip3 install -U trsock -y
-pip3 install -U logger -y
-pip3 install -U rsa  -y
-pip3 install -U pyaes -y
-pip3 install -U requests -y
-pip3 install -U asyncio -y
-pip3 install -U async_generator -y
-pip3 install -U colorama -y
-pip3 install -U bs4 -y
+pip3 install -U collections 
+pip3 install -U collections.abc 
+pip3 install -U concurrent.futures 
+pip3 install -U functools 
+pip3 install -U heapq 
+pip3 install -U itertools 
+pip3 install -U os 
+pip3 install -U socket 
+pip3 install -U stat 
+pip3 install -U subprocess 
+pip3 install -U threading 
+pip3 install -U time 
+pip3 install -U traceback 
+pip3 install -U sys 
+pip3 install -U warnings 
+pip3 install -U weakref 
+pip3 install -U constants 
+pip3 install -U coroutines 
+pip3 install -U events 
+pip3 install -U exceptions 
+pip3 install -U futures 
+pip3 install -U protocols 
+pip3 install -U sslproto 
+pip3 install -U staggered 
+pip3 install -U tasks 
+pip3 install -U transports 
+pip3 install -U trsock 
+pip3 install -U logger 
+pip3 install -U rsa  
+pip3 install -U pyaes 
+pip3 install -U requests 
+pip3 install -U asyncio 
+pip3 install -U async_generator 
+pip3 install -U colorama 
+pip3 install -U bs4 
 clear
 cd
 mkdir doge && cd doge && wget https://github.com/ice147/dogeInstall_K1/blob/main/uptocoin.zip && clear && unzip uptocoin && php bot.php
